@@ -24,17 +24,23 @@
             <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
         <ul id="menu" class="shadow">
-            <li>
+<!--             <li>
                 <a href="#about">About</a>
+            </li> -->
+            <li>
+                <a href="#education">Education</a>
             </li>
             <li>
                 <a href="#experience">Experience</a>
             </li>
             <li>
-                <a href="#education">Education</a>
+                <a href="#internship">Internships</a>
             </li>
             <li>
-                <a href="#projects">Projects</a>
+                <a href="#academic_projects">Academic Projects</a>
+            </li>
+            <li>
+                <a href="#personal_projects">Personal Projects</a>
             </li>
             <li>
                 <a href="#skills">Skills</a>
@@ -132,7 +138,12 @@
                 </ul>
             </div>
         </div>
+    </div>
+    <!-- End of #experience -->
 
+    <div id="internship" class="background-alt">
+        <h2 class="heading">Internships</h2>
+        <div id="experience-timeline">
             <div data-date="January 2019 - June 2019">
                 <h3>CrowdANALYTIX, Bangalore</h3>
                 <h4>Data Science Intern</h4>
@@ -155,8 +166,9 @@
             </div>
         </div>
     </div>
+    <!-- End of #internships -->
 
-    <div id="projects" class="background-alt">
+    <div id="academic_projects" class="background-alt">
         <h2 class="heading">Academic Projects</h2>
         <div class="container">
             <div class="row">
@@ -173,7 +185,7 @@
                         <p>
                         	Dataset : Contains a total of 277,524 images (198,738 Non-IDC and 78,786 IDC)
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/kushaldeb/IDC-Classification-using-CNNs-in-Breast-Histopathological-Images">View Project<i class="fa fa-github"></i></a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -185,11 +197,14 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Data Analytics on the Indian Economy</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Studied and performed data analytics on various aspects of the Indian Economy namely Employment, Tax, Digital Payment, GDP and Inflation.
                         </p>
-                        <a href="#">View Project</a>
+                        <p>
+                        	Data Sources : India API, World Bank, incometaxindia.gov.in, RBI, data.gov.in, webscrapping etc.
+                        </p>
+                        <a href="https://drive.google.com/file/d/10h0zawATbohWp7lpD87z_sGqWxmaCIOQ/view">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -199,8 +214,8 @@
     </div>
     <!-- End #academic projects -->
 
-        <div id="projects" class="background-alt">
-        <h2 class="heading">Academic Projects</h2>
+    <div id="personal_projects" class="background-alt">
+        <h2 class="heading">Personal Projects</h2>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
@@ -209,11 +224,11 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Superhero Classification from Product Images</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Achieved an accuracy of 73% by implementing a simple 5 layer CNN to classify among 12 different categories of superheroes from product images such as t-shirts, coffee mugs, bags etc.
                         </p>
-                        <a href="#">View Project</a>
+                        <!--<a href="#">View Project</a>-->
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -225,15 +240,32 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>News Category Classification</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Implemented different Machine learning algorithms to classify among 30 news categories using headline and short description of the news and achieved maximum accuracy of 60% using Multinomial Logistic Regression.
                         </p>
-                        <a href="#">View Project</a>
+                        <!-- <a href="#">View Project</a> -->
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Happiness Type Predictor</h3>
+                        <p>
+                            Achieved accuracy of 88% in happiness type predictor using Naive Bayes for a dataset consisting of 60,000 text messages with six different happiness types.
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
             </div>
         </div>
     </div>
@@ -242,32 +274,20 @@
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
             <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
             <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
+            <li>R</li>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>Data Analytics</li>
+            <li>Regex</li>
+            <li>NLP</li>
+            <li>Computer Vision</li>
             <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>MySQL</li>
+            <li>Keras</li>
+            <li>Tensorflow</li>
+            <li>latex</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -275,7 +295,7 @@
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" action="https://formspree.io/kushaldeb.iiit@gmail.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
@@ -291,7 +311,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2020 YOUR NAME
+                        Copyright &copy; 2020 Kushal Deb
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -302,22 +322,10 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/kushaldeb" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/kushaldeb/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
